@@ -56,7 +56,7 @@ const page = `
             <ul class="skill-container">
                 <!-- skill-item flex direction row -->
                 <li class="skill-item">
-                    <img src="/public/ic-python.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
+                    <img src="/ic-python.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
                     <span class="star-container">
                         <span data-scroll data-scroll-delay="1" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
                         <span data-scroll data-scroll-delay="0.8" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
@@ -66,7 +66,7 @@ const page = `
                     </span>
                 </li>
                 <li class="skill-item">
-                    <img src="/public/ic-kotlin.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
+                    <img src="/ic-kotlin.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
                     <span class="star-container">
                         <span data-scroll data-scroll-delay="1" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
                         <span data-scroll data-scroll-delay="0.8" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
@@ -76,7 +76,7 @@ const page = `
                     </span>
                 </li>
                 <li class="skill-item">
-                    <img src="/public/ic-firebase.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
+                    <img src="/ic-firebase.svg" alt=""  data-scroll data-scroll-delay="1" data-scroll-speed="1">
                     <span class="star-container">
                         <span data-scroll data-scroll-delay="1" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
                         <span data-scroll data-scroll-delay="0.8" data-scroll-speed="1"><img src="/ic-star.svg" alt="" class="star-ic"></span>
