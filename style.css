@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    /* --bg1: #f5f5f5; */
+    --bg2: #ffffff;
+    --letter-color: #000000;
+    --title-color: #800020;
+}
+
+*{
+    font-family: 'Instrument Sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Disable default scrollbar */
+    scroll-behavior: smooth;
+}
+
+.about-container{
+    margin-left: 160px;
+    margin-right: 160px;
+    position: relative ;
+}
+[data-scroll-container]{
+    position: relative ;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    justify-content: space-between;
+
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: end;
+}
+.navbar-title{
+    font-weight: normal;
+    font-size: 1.875rem;
+    margin-top: 50px;
+}
+.navbar-link{
+    color: var(--letter-color); /* Change the color of the text of navbar*/
+    text-decoration: none;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-item{  
+    font-size: 1.875rem;
+}
+.navbar-link:hover{
+    cursor: pointer;
+    color: var(--title-color);
+    text-decoration: underline;
+}
+.left-container{
+    text-align: start;
+}
+.hero-greet{
+    margin-top: 87px;
+    font-size: 3.75rem;
+}
+.hero-name{
+    margin-top: 30px;
+    font-size: 4.375rem;
+    color: var(--title-color);
+}
+.hero-text{
+    margin-top: 30px;
+    width: 550px;
+    font-size: 1.875rem;
+}
+.hero-image-container{
+    justify-content: end;
+    width: 500px;
+    height: 100%;
+}
+.hero-image{
+    width: 100%;
+    height: 100%;
+}
+.experience-container{
+    text-align: center;
+}
+.experience-title{
+    font-size: 4.375rem;
+    color: var(--title-color);
+    padding: 60px;
+}
+.skillset-title{
+    font-size: 1.875rem;
+    color: var(--title-color);
+    padding: 30px;
+}
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 50px;
+}
+.skill-item{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.skill-item img{
+    width: 100px;
+    height: 100px;    
+}
+.star-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.star-container span{
+    display: inline-block;
+}
+.star-container img{
+    width: 50px;
+    height: 50px;
+}
+.project-header{
+    font-size: 1.875rem;
+    color: var(--title-color);
+    padding: 40px;
+    margin-top: 30px;
+}
+.project-matrix{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+.project-box{
+    width: 360px;
+    height: 260px;
+    background-color:antiquewhite;
+    border-radius: 10%;
+}
+.contact-container{
+    text-align: center;
+    justify-content: center;
+}
+.contact-title{
+    font-size: 4.375rem;
+    color: var(--title-color);
+    padding: 100px;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.logo-container img{
+    width: 70px;
+    height: 70px;
+}
+.logo-container img:hover{
+    cursor: pointer;
+}
+.copyright{
+    padding: 100px;
+    font-size: 1.875rem;
+}
